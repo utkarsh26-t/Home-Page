@@ -52,7 +52,6 @@ nav a:hover{
 }
 .logo:hover{
     background: none;
-
 }
 #icon:hover{
     background: none;
@@ -194,7 +193,7 @@ audio{
 .logo h4 span{
     color: black;
 }
-.contact {
+#contact {
     display: grid;
     background-color: #fbbc95;
     background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
@@ -260,7 +259,7 @@ audio{
     padding:4px;
   }
     @media screen and (max-width: 906px) {
-    .contact {
+    #contact {
       grid-template-columns: 1fr;
       grid-template-rows: 2fr 0.8fr 0.8fr 1.4fr 1fr;
       grid-template-areas:
@@ -272,7 +271,7 @@ audio{
     }
   } 
   @media screen and (max-width: 709px) {
-    .contact {
+    #contact {
       grid-template-columns: 1fr;
       grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 0.5fr;
       height: 85vh;
@@ -286,6 +285,7 @@ audio{
         "footer";
     }
   } 
+
 
   #sidebar i{
       margin-top: 20%;
@@ -325,7 +325,6 @@ audio{
           margin: 0px 1.0rem;
       }
   }
-
   
 
 
