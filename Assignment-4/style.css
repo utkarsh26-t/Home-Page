@@ -37,7 +37,7 @@ nav i{
     justify-content: space-evenly;
     width: 450px;
 }
-a{
+nav a{
     font-size: 17px;
     color: #ffffff;
     letter-spacing: 3px;
@@ -53,6 +53,14 @@ nav a:hover{
 .logo:hover{
     background: none;
 
+}
+@media screen and (min-width:580px) and (max-width:861px){
+    .logo{
+        font-size: 20px;
+    }
+    nav a{
+        font-size: 13px;
+    }
 }
 @media screen and (max-width:580px){
 
